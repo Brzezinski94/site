@@ -11,7 +11,7 @@ navLink.forEach(n => n.addEventListener('click', linkAct));
 
 // Nav-Links
 TweenMax.staggerFrom('.menu-open', 1, {
-    delay:3,
+    delay:1.2,
     opacity:0,
     x:100,
     ease:Expo.easeInOut
@@ -19,21 +19,21 @@ TweenMax.staggerFrom('.menu-open', 1, {
 
 // Search-Icon
 TweenMax.from('.social', 1.1, {
-    delay:3.4,
+    delay:1.4,
     opacity:0,
     x:-50,
     ease:Expo.easeInOut
 })
 
 TweenMax.from('.info_text', 1.2, {
-    delay:3.8,
+    delay:1.6,
     opacity:0,
     x:-50,
     ease:Expo.easeInOut
 })
 
 TweenMax.staggerFrom('.adv_inf', 1.3, {
-    delay:4,
+    delay:1.8,
     opacity:0,
     x:-100,
     ease:Expo.easeInOut
